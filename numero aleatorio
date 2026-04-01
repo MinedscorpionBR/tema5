@@ -1,0 +1,20 @@
+programa
+{
+    inclua biblioteca Util
+    funcao inicio()
+    {
+      inteiro numeros [5]
+      cadeia pausa
+         //Gerando numeros aleatorios com a função sorteia ()
+             para (inteiro i=0; i < 5; i++ ) {
+              numeros [i] = Util.sorteia(0, 100) (com biblioteca Util)
+              }
+           //Exibindo numeros gerados
+            escreva: ("\n === NUMEROS ALEATORIOS GERADOS ===\n")
+              para (inteiro i = 0; i < 5; i++){
+               escreva:("posição", i,":",numeros[i], "\n")
+              }
+                escreva:("\n nPressione ENTER para finalizar . . .")
+                leia(pausa)
+    }
+}
