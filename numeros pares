@@ -1,0 +1,32 @@
+  programa{
+    funcao inicio()
+{
+      inteiro numeros [8]
+      inteiro maior
+      inteiro menor
+      cadeia pausa
+        para (inteiro i=0; i < 50; i++) {
+            escreva ("Digite o", i+1," número: ")
+            leia(numeros[1])
+}
+              maior numeros [i]
+              menor numeros [i]
+                para (inteiro i=1; i < 8; 1++) (
+                  se (numeros [i] > maior) {
+}
+                    maior numeros [1]
+                      se (numeros [i] < menor) {
+                        menor numeros[i]
+}
+}
+            escreva("\n=== VALORES DIGITADOS ===\n")
+              para (inteiro i = 0; i < 8; i++) {
+                    escreva (numeros[i], "")
+}
+                escreva ("\n\n")
+                  escreva ("Maior valor: ", maior, "\n")
+                    escreva ("Menor valor:", menor, "\n")
+}
+}
+                        escreva ("\nPressione ENTER para finalizar...")
+                        leia(pausa)
