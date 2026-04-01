@@ -11,7 +11,7 @@ programa
             escreva("Digite o ", i + 1, "º número: ")
             leia(numeros[i])
             
-            se (numeros[i] % 2 == 0) {
+            se (numeros[i] % 2 == 1) {
                 pares[qtdPares] = numeros[i]
                 qtdPares = qtdPares + 1
             }
